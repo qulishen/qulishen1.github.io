@@ -19,8 +19,11 @@ social: false  # includes social icons at the bottom of the page
 ---
 I am currently pursuing a Master's degree in [Jufeng Yang's Computer Vision Lab](http://cv.nankai.edu.cn/) at Nankai University, having completed my undergraduate studies in the Software Engineering Department at the same institution.
 
+[//]: # ([Blog]&#40;http://qulishen.top&#41;)
 
-<div style="text-align: center;">
+[//]: # ([Github]&#40;https://github.com/qulishen&#41;)
+
+<div  align="center">
 <a href=http://qulishen.top>Blog</a> |
 <a href=https://github.com/qulishen>Github</a>
 </div>
