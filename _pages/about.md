@@ -21,6 +21,6 @@ I am currently pursuing a Master's degree in [Jufeng Yang's Computer Vision Lab]
 
 Furthermore, please don't hesitate to provide any suggestions. You can reach me through the following contact methods:
 
-[Blog](http://qulishen.top)
+[Blog](https://41g09512r6.goho.co/)
 
 [Github](https://github.com/qulishen)
