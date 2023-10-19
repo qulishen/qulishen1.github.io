@@ -1,12 +1,14 @@
 # al-folio
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[maintainers]: https://img.shields.io/badge/maintainers-3-success.svg 'Number of maintainers'
+
+[maintainers]: https://img.shields.io/badge/maintainers-3-success.svg
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
 [![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Maintainers][maintainers]](#maintainers)
+[![Maintainers]"Number of maintainers"](#maintainers)
 [![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
 [![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
@@ -20,7 +22,6 @@ A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academ
 If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
-
 
 ## User community
 
@@ -122,44 +123,41 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
 </tr>
 </table>
 
-
 ## Lighthouse PageSpeed Insights
 
 [![Google PageSpeeg](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
-
 ## Table Of Contents
 
-  * [User community](#user-community)
-  * [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
-  * [Getting started](#getting-started)
-    + [Installation](#installation)
-      - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
-      - [Local Setup (Standard)](#local-setup-standard)
-      - [Deployment](#deployment)
-      - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-    + [FAQ](#faq)
-  * [Features](#features)
-    + [Publications](#publications)
-    + [Collections](#collections)
-    + [Layouts](#layouts)
-      - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math & code](#full-support-for-math--code)
-      - [Photos](#photos)
-    + [Other features](#other-features)
-      - [GitHub repositories and user stats](#github-repositories-and-user-stats)
-      - [Theming](#theming)
-      - [Social media previews](#social-media-previews)
-      - [Atom (RSS-like) Feed](#atom-rss-like-feed)
-  * [Contributing](#contributing)
-    + [Core Contributors](#core-contributors)
-  * [License](#license)
+* [User community](#user-community)
+* [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
+* [Getting started](#getting-started)
+  + [Installation](#installation)
+    - [Local setup using Docker (Recommended on Windows)](#local-setup-using-docker-recommended-on-windows)
+    - [Local Setup (Standard)](#local-setup-standard)
+    - [Deployment](#deployment)
+    - [Upgrading from a previous version](#upgrading-from-a-previous-version)
+  + [FAQ](#faq)
+* [Features](#features)
+  + [Publications](#publications)
+  + [Collections](#collections)
+  + [Layouts](#layouts)
+    - [The iconic style of Distill](#the-iconic-style-of-distill)
+    - [Full support for math & code](#full-support-for-math--code)
+    - [Photos](#photos)
+  + [Other features](#other-features)
+    - [GitHub repositories and user stats](#github-repositories-and-user-stats)
+    - [Theming](#theming)
+    - [Social media previews](#social-media-previews)
+    - [Atom (RSS-like) Feed](#atom-rss-like-feed)
+* [Contributing](#contributing)
+  + [Core Contributors](#core-contributors)
+* [License](#license)
 
 ## Getting started
 
 Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
 Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
-
 
 ### Installation
 
@@ -191,14 +189,16 @@ Now, feel free to customize the theme however you like (don't forget to change t
 
 > To change port number, you can edit `docker-compose.yml` file.
 
-<details><summary>(click to expand) <strong>Build your own docker image:</strong></summary>
+span
 
 > Note: this approach is only necessary if you would like to build an older or very custom version of al-folio.
 
 Build and run a new docker image using:
+
 ```bash
 $ docker-compose -f docker-local.yml up
 ```
+
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
 
 </details>
@@ -227,6 +227,7 @@ Deploying your website to [GitHub Pages](https://pages.github.com/) is the most 
 Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0.3.5), **al-folio** will automatically re-deploy your webpage each time you push new changes to your repository! :sparkles:
 
 **For personal and organization webpages:**
+
 1. Rename your repository to `<your-github-username>.github.io` or `<your-github-orgname>.github.io`.
 2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 3. Set up automatic deployment of your webpage (see instructions below).
@@ -234,24 +235,27 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 **For project pages:**
+
 1. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and `baseurl` to `/<your-repository-name>/`.
 2. Set up automatic deployment of your webpage (see instructions below).
 3. Make changes, commit, and push!
 4. After deployment, the webpage will become available at `<your-github-username>.github.io/<your-repository-name>/`.
 
 **To enable automatic deployment:**
+
 1. Click on **Actions** tab and **Enable GitHub Actions**; do not worry about creating any workflows as everything has already been set for you.
 2. Make any other changes to your webpage, commit, and push. This will automatically trigger the **Deploy** action.
 3. Wait for a few minutes and let the action complete. You can see the progress in the **Actions** tab. If completed successfully, in addition to the `master` branch, your repository should now have a newly built `gh-pages` branch.
 4. Finally, in the **Settings** of your repository, in the Pages section, set the branch to `gh-pages` (**NOT** to `master`). For more details, see [Configuring a publishing source for your GitHub Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source).
 
-
 <details><summary>(click to expand) <strong>Manual deployment to GitHub Pages:</strong></summary>
 
 If you need to manually re-deploy your website to GitHub pages, run the deploy script from the root directory of your repository:
+
 ```bash
 $ ./bin/deploy
 ```
+
 uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
 
 </details>
@@ -259,9 +263,11 @@ uses the `master` branch for the source code and deploys the webpage to `gh-page
 <details><summary>(click to expand) <strong>Deployment to another hosting server (non GitHub Pages):</strong></summary>
 
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
+
 ```bash
 $ bundle exec jekyll build
 ```
+
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
 
@@ -279,6 +285,7 @@ For a user site this could well be something like `$HOME/<user>.github.io`.
 Firstly, from the deployment repo dir, checkout the git branch hosting your publishing source.
 
 Then from the website sources dir (commonly your al-folio fork's clone):
+
 ```bash
 $ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
@@ -333,28 +340,24 @@ If you have a different question, please ask using [Discussions](https://github.
    Please make some changes (e.g., change your website info in `_config.yml`), commit, and push.
    Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment) in the previous section.
    (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
-
 2. **Q:** I am using a custom domain (e.g., `foo.com`).
    My custom domain becomes blank in the repository settings after each deployment.
    How do I fix that? <br>
    **A:** You need to add `CNAME` file to the `master` or `source` branch of your repository.
    The file should contain your custom domain name.
    (Relevant issue: [130](https://github.com/alshedivat/al-folio/issues/130).)
-
 3. **Q:** My webpage works locally.
-    But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
-    How do I fix that? <br>
+   But after deploying, it is not displayed correctly (CSS and JS is not loaded properly).
+   How do I fix that? <br>
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
    Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain.
    If you are deploying a personal or organization website, leave `baseurl` blank.
    If you are deploying a project page, set `baseurl: /<your-project-name>/`.
-
 4. **Q:** Atom feed doesn't work. Why?
    <br>
    **A:** Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`.
-  RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
-  Make sure to fill them in an appropriate way and try again.
-
+   RSS Feed plugin works with these correctly set up fields: `title`, `url`, `description` and `author`.
+   Make sure to fill them in an appropriate way and try again.
 
 ## Features
 
@@ -369,14 +372,17 @@ You can also add new `*.bib` files and customize the look of your publications h
 <details><summary>(click to expand) <strong>Author annotation:</strong></summary>
 
 In publications, the author entry for yourself is identified by string array `scholar:last_name` and string array `scholar:first_name` in `_config.yml`:
+
 ```
 scholar:
   last_name: [Einstein]
   first_name: [Albert, A.]
 ```
+
 If the entry matches one form of the last names and the first names, it will be underlined.
 Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 The coauthor data format in `_data/coauthors.yml` is as follows,
+
 ```
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
@@ -397,6 +403,7 @@ The coauthor data format in `_data/coauthors.yml` is as follows,
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
+
 If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided.
 
 </details>
@@ -476,11 +483,13 @@ Easily create beautiful grids within your blog posts and project pages:
 ### Other features
 
 #### GitHub repositories and user stats
+
 **al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) to display GitHub repositories and user stats on the the `/repositories/` page.
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the the `/repositories/` page.
 
 You may also use the following codes for displaying this in any other pages.
+
 ```
 <!-- code for GitHub users -->
 {% if site.data.repositories.github_users %}
@@ -502,6 +511,7 @@ You may also use the following codes for displaying this in any other pages.
 ```
 
 #### Theming
+
 A variety of beautiful theme colors have been selected for you to choose from.
 The default is purple, but you can quickly change it by editing the
 `--global-theme-color` variable in the `_sass/_themes.scss` file.
@@ -511,6 +521,7 @@ You can also add your own colors to this file assigning each a name for ease of
 use across the template.
 
 #### Social media previews
+
 **al-folio** supports preview images on social media.
 To enable this functionality you will need to set `serve_og_meta` to `true` in your `_config.yml`.
 Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
@@ -521,6 +532,7 @@ If for an individual page this variable is not set, then the theme will fall bac
 In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
 
 #### Atom (RSS-like) Feed
+
 It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS readers.
 The feed is reachable simply by typing after your homepage `/feed.xml`.
 E.g. assuming your website mountpoint is the main folder, you can type `yourusername.github.io/feed.xml`
@@ -536,8 +548,11 @@ For more complex issues/bugs or feature requests, please open an issue using the
 ### Maintainers
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tr>
     <td align="center"><a href="http://maruan.alshedivat.com"><img src="https://avatars.githubusercontent.com/u/2126561?v=4" width="100px;" alt=""/><br /><sub><b>Maruan</b></sub></a></td>
@@ -547,6 +562,7 @@ For more complex issues/bugs or feature requests, please open an issue using the
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
