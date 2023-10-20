@@ -1,6 +1,6 @@
 ---
-layout: About
-title: About
+layout: about
+title: about
 permalink: /
 subtitle: Master student. <a href=http://cv.nankai.edu.cn>CV Lab</a>. <a href=http://cv.nankai.edu.cn>Nankai University</a>.
 
